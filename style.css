@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+}
+
+/* main section */
+
+#mainSection{
+   font-family: "Poppins", sans-serif;
+   width: 450px;
+   /* height: 500px; */
+   border: 2px solid rgb(244, 243, 243);
+  margin:20px auto;
+
+}
+
+/* subSection 1 */
+
+#subSection1{
+    /* width: 500px; */
+    height: 90px;
+    background-color: rgb(16, 142, 90);
+    display: flex;
+      align-items: center;
+    justify-content: center;
+}
+#subSection1 h1{
+    font-size: 30px;
+    color: white;
+  
+}
+
+/* Navbar section */
+
+#navbar{
+/* width: 500px; */
+height: 40px;
+background-color: black;
+ display: flex;
+      align-items: center; 
+    justify-content: center;
+    gap: 20px;
+    /* justify-content: space-evenly; */
+}
+#navbar nav{
+    color: white;
+   
+}
+
+/* sub section 2 */
+
+#subSection2{
+    display: flex;
+    /* display: inline-block; */
+}
+
+/* sub section 2 ,box1 */
+
+#subSection2 #box1{
+width: 200px;
+
+background-color: rgb(243, 242, 242);
+
+}
+
+/* sub section 2 ,box1 ,subbox1 */
+
+#subbox1{
+    margin: 15px;
+    height:250px;
+    background-color: rgb(220, 220, 220);
+}
+#subbox1 h2,p{
+    text-align: center;
+    padding: 15px;
+}
+
+/* sub section2, box2 */
+
+#subSection2 #box2{
+    
+   text-align: center; 
+    padding: 27px;
+    /* background-color: antiquewhite; */
+}
+
+/* sub section 3 */
+
+#subSection3{
+    height: 55px;
+   background-color: rgb(16, 142, 90);
+     color: white;
+      display: flex;
+    justify-content: center;
+      align-items: center;
+    }
+  
+    /* sub section 3, span */
+#span{
+    margin-right: 10px;
+    font-size: 21px;
+}
